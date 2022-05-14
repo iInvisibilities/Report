@@ -1,0 +1,33 @@
+
+# 'report-type'|'alias1'-'alias2'-'alias3'...
+# so for example:
+# /report player report-type or /chatreport player report-type
+# is the exact same as:
+# /report player alias1 or /chatreport player alias1
+
+INGAME-REPORT:
+  - 'killaura'
+  - 'autoclicker|ac'
+  - 'fly'
+  - 'speed'
+  - 'bhop|bonnyhop-bhopper'
+
+CHAT-REPORT:
+  - 'swear|badword-fword'
+  - 'racist|racism-nword'
+  - 'advertising|advertisement-ads'
+  - 'harassment|harassing'
+  - 'threatening|threat'
+  - 'spam|spammer-spamming'
+
+# in seconds
+# no delay? put 0
+REPORT-DELAY: 5
+
+MESSAGES:
+  REPORT-SUCCESS: '&aYour report has been sent to a staff member and will be reviewed soon...'
+  REPORT-FAIL: '&cYour report has been declined!'
+
+  REPORT-COOLDOWN: '&cPlease wait before reporting again...'
+
+  REPORT-RECEIVED: '&aA new report has been saved, make sure to check it out asap!'

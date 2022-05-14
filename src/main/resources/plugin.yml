@@ -1,0 +1,46 @@
+main: me.invis.report.Report
+name: Report
+
+version: '${project.version}'
+author: Invisibilities
+
+description: Report plugin
+
+commands:
+  report:
+    permission: 'report.command.report'
+    permission-message: 'No permission.'
+    aliases:
+      - 'wdr'
+      - 'watchdogreport'
+      - 'hebehacking'
+      - 'hacker'
+  chatreport:
+    permission: 'report.command.chatreport'
+    permission-message: 'No permission.'
+    aliases:
+      - 'racist'
+      - 'cr'
+      - 'reportchat'
+      - 'reportmessage'
+      - 'messagereport'
+      - 'watchcatreport'
+      - 'wcr'
+      - 'heberacisttho'
+      - 'hebesayingembadwordstho'
+      - 'sayingsomebadstuff'
+  reports:
+    permission: 'report.command.reports'
+    permission-message: 'No permission.'
+    aliases:
+      - 'currentreports'
+      - 'reportslist'
+      - 'reportsls'
+      - 'rls'
+      - 'currentreportlist'
+      - 'whobehacking'
+      - 'iwanttopunish'
+      - 'finnapunishsumkids'
+      - 'finnadoit'
+      - 'damnwherethatlistthat'
+      - 'damntheybehackingfinnapunishembadbois'
