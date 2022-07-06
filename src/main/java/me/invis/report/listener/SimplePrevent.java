@@ -8,7 +8,9 @@ public class SimplePrevent implements Listener {
 
     @EventHandler
     private void onInventoryClickEvent(InventoryClickEvent event) {
-        if(event.getClickedInventory().getName().equalsIgnoreCase("Current reports:")) event.setCancelled(true);
+        if(event.getClickedInventory().getName().equalsIgnoreCase("Current reports:")) {
+            event.setCancelled(true);
+        }
     }
 
 }
